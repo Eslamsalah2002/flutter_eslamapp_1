@@ -52,8 +52,14 @@ class FaceBook extends StatelessWidget {
             color: Colors.blue,
           ),
         ],
+        elevation: 20,
       ),
-      
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(
+          Icons.add,
+        ),
+      ),
     );
   }
 }
