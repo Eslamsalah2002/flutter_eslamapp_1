@@ -30,7 +30,7 @@ class FaceBook extends StatelessWidget {
           "facebook",
           style: TextStyle(
               color: Color.fromARGB(255, 7, 117, 207),
-              fontSize: 30,
+              fontSize: 33,
               fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -52,8 +52,8 @@ class FaceBook extends StatelessWidget {
             color: Colors.blue,
           ),
         ],
-        
       ),
+      
     );
   }
 }
