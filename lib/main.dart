@@ -54,6 +54,18 @@ class FaceBook extends StatelessWidget {
         ],
         elevation: 20,
       ),
+      // -------------------------------------------------------
+      body: Text(
+        "eslam salah",
+        style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            decoration: TextDecoration.underline,
+            backgroundColor: Colors.amber,
+            fontStyle: FontStyle.italic,
+            height: 5,
+            wordSpacing: 1),
+      ),
     );
   }
 }
