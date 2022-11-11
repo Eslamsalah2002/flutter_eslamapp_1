@@ -64,7 +64,7 @@ class FaceBook extends StatelessWidget {
             backgroundColor: Colors.amber,
             fontStyle: FontStyle.italic,
             height: 5,
-            wordSpacing: 1),
+            wordSpacing: 277),
       ),
     );
   }
