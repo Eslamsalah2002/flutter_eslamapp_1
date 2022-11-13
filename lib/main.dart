@@ -55,16 +55,94 @@ class FaceBook extends StatelessWidget {
         elevation: 20,
       ),
       // -------------------------------------------------------
-      body: Text(
-        "eslam salah",
-        style: TextStyle(
+      body: SingleChildScrollView(
+        child:Column(
+        // ignore: sort_child_properties_last
+        children: [
+        Container(
+        // ignore: sort_child_properties_last
+        child: Text(
+          "eslam salah",
+          style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.bold,
-            decoration: TextDecoration.underline,
-            backgroundColor: Colors.amber,
-            fontStyle: FontStyle.italic,
-            height: 5,
-            wordSpacing: 277),
+          ),
+        ),
+
+        height: 229,
+        width: 300,
+        padding: EdgeInsets.all(15),
+        alignment: Alignment.center,
+        // transform: Matrix4.rotationZ(0.2),
+        decoration: BoxDecoration(
+            color: Colors.amber,
+            border: Border.all(color: Colors.red, width: 15),
+            // borderRadius: BorderRadius.circular(150)
+            ),
+      ),
+      SizedBox(height: 100,),
+      Container(
+        // ignore: sort_child_properties_last
+        child: Icon(Icons.favorite,color: Color.fromARGB(255, 137, 14, 5),size: 50,),
+        height: 122,
+        width: 122,
+        padding: EdgeInsets.all(18),
+        alignment: Alignment.center,
+        // transform: Matrix4.rotationZ(0.2),
+        decoration: BoxDecoration(
+            color: Colors.blue,
+            border: Border.all(color: Color.fromARGB(255, 250, 168, 162), width: 15),
+            // borderRadius: BorderRadius.circular(150)
+            shape: BoxShape.circle),
+      ),
+      SizedBox(height: 100,),
+      Container(
+        child: Text(
+          "eslam salah",
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+
+        height: 122,
+        width: 122,
+        padding: EdgeInsets.all(5),
+        alignment: Alignment.center,
+        // transform: Matrix4.rotationZ(0.2),
+        decoration: BoxDecoration(
+            color: Colors.amber,
+            border: Border.all(color: Colors.red, width: 15),
+            // borderRadius: BorderRadius.circular(150)
+            shape: BoxShape.circle),
+      ),
+     SizedBox(height: 100,),
+      Container(
+        child: Text(
+          "eslam salah",
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+
+        height: 122,
+        width: 122,
+        padding: EdgeInsets.all(5),
+        alignment: Alignment.center,
+        // transform: Matrix4.rotationZ(0.2),
+        decoration: BoxDecoration(
+            color: Colors.amber,
+            border: Border.all(color: Colors.red, width: 15),
+            // borderRadius: BorderRadius.circular(150)
+            shape: BoxShape.circle),
+      ),
+      ],
+      
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      ), 
+      
       ),
     );
   }
