@@ -61,7 +61,7 @@ class FaceBook extends StatelessWidget {
               Container(
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(250),
                   color: Colors.blueGrey,
                 ),
                 child: Text(
@@ -143,7 +143,7 @@ class FaceBook extends StatelessWidget {
                 margin: EdgeInsets.only(top: 20),
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(250),
                   color: Colors.blueGrey,
                 ),
                 child: Text(
