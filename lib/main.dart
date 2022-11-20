@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: FaceBook(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -152,43 +153,50 @@ class FaceBook extends StatelessWidget {
                     flex: 1,
                     child: Container(
                       alignment: Alignment.center,
-                      child: Text("eslam",style: TextStyle(color: Color.fromARGB(255, 47, 33, 243),
-                      fontSize: 30),
+                      child: Text(
+                        "eslam",
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 47, 33, 243),
+                            fontSize: 30),
                       ),
                       color: Colors.amber,
                       width: 100,
                       height: 100,
                     ),
                   ),
-                  
-                   Expanded(
+                  Expanded(
                     flex: 2,
-                     child: Container(
+                    child: Container(
                       alignment: Alignment.center,
-                      child: Text("salah",style: TextStyle(color: Color.fromARGB(255, 240, 243, 33),
-                      fontSize: 30),
+                      child: Text(
+                        "salah",
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 240, 243, 33),
+                            fontSize: 30),
                       ),
                       color: Color.fromARGB(255, 7, 61, 255),
                       width: 100,
                       height: 100,
-                                     ),
-                   ),
+                    ),
+                  ),
                   Expanded(
                     flex: 1,
-                    child:  Container(
-                    alignment: Alignment.center,
-                    child: Text("abdo",style: TextStyle(color: Color.fromARGB(255, 254, 254, 254),
-                    fontSize: 30),
+                    child: Container(
+                      alignment: Alignment.center,
+                      child: Text(
+                        "abdo",
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 254, 254, 254),
+                            fontSize: 30),
+                      ),
+                      color: Color.fromARGB(255, 255, 7, 40),
+                      width: 100,
+                      height: 100,
                     ),
-                    color: Color.fromARGB(255, 255, 7, 40),
-                    width: 100,
-                    height: 100,
-                    
-                  ),)
-                  
+                  )
                 ],
               ),
-              
+
               height: 300,
               margin: EdgeInsets.only(top: 30),
               decoration: BoxDecoration(
@@ -199,7 +207,6 @@ class FaceBook extends StatelessWidget {
           ],
         ),
       ),
-    
     );
   }
 }
