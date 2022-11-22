@@ -72,63 +72,106 @@ class FaceBook extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50)),
               margin: EdgeInsets.only(bottom: 50),
             ),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: [
-                  Container(
-                    child: Text(
-                      "eslam ",
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                    alignment: Alignment.center,
-                    height: 100,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.blueGrey,
-                        borderRadius: BorderRadius.circular(15)),
-                  ),
-                  Container(
-                    child: Text(
-                      "salah ",
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                    alignment: Alignment.center,
-                    height: 100,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.blueGrey,
-                        borderRadius: BorderRadius.circular(15)),
-                    margin: EdgeInsets.only(left: 19),
-                  ),
-                  Container(
-                    child: Text(
-                      "abdo ",
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                    alignment: Alignment.center,
-                    height: 100,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.blueGrey,
-                        borderRadius: BorderRadius.circular(15)),
-                    margin: EdgeInsets.only(left: 19),
-                  ),
-                  Container(
-                    // ignore: sort_child_properties_last
-                    child: Text(
-                      "elsadek ",
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                    alignment: Alignment.center,
-                    height: 100,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: Colors.blueGrey,
-                        borderRadius: BorderRadius.circular(15)),
-                    margin: EdgeInsets.only(left: 19),
-                  ),
-                ],
+            Container(
+              color: Colors.blue.shade200,
+              width: 250,
+              height: 400,
+            
+              child: Center(
+                child: Wrap(
+                
+                  direction: Axis.vertical,
+                  spacing: 12,
+                  runSpacing: 10,
+                  alignment: WrapAlignment.center,
+                  children: [
+                       ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("1",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                     ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("2",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                     ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("3",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                     ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("4",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                    ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("5",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                     ElevatedButton(
+                        onPressed: () {}, 
+                       child: Text("6",style: TextStyle(fontSize: 27),),
+                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
+                       foregroundColor: MaterialStateProperty.all(Colors.blue),
+                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
+                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
+                       ),
+                       ),
+
+
+                       ),
+                       
+                       ),
+                    
+                  ],
+                ),
               ),
             ),
             Container(
@@ -145,65 +188,7 @@ class FaceBook extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50)),
               margin: EdgeInsets.only(top: 50),
             ),
-            Container(
-              // ignore: sort_child_properties_last
-              child: Row(
-                children: [
-                  Expanded(
-                    flex: 1,
-                    child: Container(
-                      alignment: Alignment.center,
-                      child: Text(
-                        "eslam",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 47, 33, 243),
-                            fontSize: 30),
-                      ),
-                      color: Colors.amber,
-                      width: 100,
-                      height: 100,
-                    ),
-                  ),
-                  Expanded(
-                    flex: 2,
-                    child: Container(
-                      alignment: Alignment.center,
-                      child: Text(
-                        "salah",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 240, 243, 33),
-                            fontSize: 30),
-                      ),
-                      color: Color.fromARGB(255, 7, 61, 255),
-                      width: 100,
-                      height: 100,
-                    ),
-                  ),
-                  Expanded(
-                    flex: 1,
-                    child: Container(
-                      alignment: Alignment.center,
-                      child: Text(
-                        "abdo",
-                        style: TextStyle(
-                            color: Color.fromARGB(255, 254, 254, 254),
-                            fontSize: 30),
-                      ),
-                      color: Color.fromARGB(255, 255, 7, 40),
-                      width: 100,
-                      height: 100,
-                    ),
-                  )
-                ],
-              ),
-
-              height: 300,
-              margin: EdgeInsets.only(top: 30),
-              decoration: BoxDecoration(
-                color: Colors.blue,
-                borderRadius: BorderRadius.circular(15),
-              ),
-            )
+          
           ],
         ),
       ),
