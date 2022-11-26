@@ -76,100 +76,121 @@ class FaceBook extends StatelessWidget {
               color: Colors.blue.shade200,
               width: 250,
               height: 400,
-            
               child: Center(
                 child: Wrap(
-                
                   direction: Axis.vertical,
                   spacing: 12,
                   runSpacing: 10,
                   alignment: WrapAlignment.center,
                   children: [
-                       ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("1",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
-                     ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("2",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
-                     ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("3",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
-                     ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("4",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
                     ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("5",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
-                     ElevatedButton(
-                        onPressed: () {}, 
-                       child: Text("6",style: TextStyle(fontSize: 27),),
-                       style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.orange),
-                       foregroundColor: MaterialStateProperty.all(Colors.blue),
-                       padding:MaterialStateProperty.all( EdgeInsets.all(40)),
-                       shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(22),
-                       ),
-                       ),
-
-
-                       ),
-                       
-                       ),
-                    
+                      onPressed: () {},
+                      child: Text(
+                        "1",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text(
+                        "2",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text(
+                        "3",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text(
+                        "4",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text(
+                        "5",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {},
+                      child: Text(
+                        "6",
+                        style: TextStyle(fontSize: 27),
+                      ),
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all(Colors.orange),
+                        foregroundColor: MaterialStateProperty.all(Colors.blue),
+                        padding: MaterialStateProperty.all(EdgeInsets.all(40)),
+                        shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -188,7 +209,15 @@ class FaceBook extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50)),
               margin: EdgeInsets.only(top: 50),
             ),
-          
+            ClipRRect(
+              borderRadius: BorderRadius.only(topRight: Radius.circular(60)),
+              child: Image.asset(
+                "assets/img/3.jpg",
+                fit: BoxFit.cover,
+                height: 500,
+                width: 300,
+              ),
+            )
           ],
         ),
       ),
