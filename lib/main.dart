@@ -3,6 +3,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -209,14 +210,54 @@ class FaceBook extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50)),
               margin: EdgeInsets.only(top: 50),
             ),
-            ClipRRect(
-              borderRadius: BorderRadius.only(topRight: Radius.circular(60)),
-              child: Image.asset(
-                "assets/img/3.jpg",
-                fit: BoxFit.cover,
-                height: 500,
-                width: 300,
-              ),
+            Row(
+              children: [
+                Container(
+                  // ignore: sort_child_properties_last
+                  child: SvgPicture.asset(
+                    "assets/img/face.svg",
+                    color: Color.fromARGB(255, 6, 77, 135),
+                    width: 33,
+                    height: 44,
+                  ),
+                  // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Colors.blue, width: 2),
+                      shape: BoxShape.circle),
+                  padding: EdgeInsets.all(9),
+                  margin: EdgeInsets.only(top: 30, left: 60),
+                ),
+                Container(
+                  // ignore: sort_child_properties_last
+                  child: SvgPicture.asset(
+                    "assets/img/inc.svg",
+                    color: Color.fromARGB(255, 6, 77, 135),
+                    width: 33,
+                    height: 44,
+                  ),
+                  // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Colors.blue, width: 2),
+                      shape: BoxShape.circle),
+                  padding: EdgeInsets.all(9),
+                  margin: EdgeInsets.only(top: 30, left: 30),
+                ),
+                Container(
+                  // ignore: sort_child_properties_last
+                  child: SvgPicture.asset(
+                    "assets/img/tw.svg",
+                    color: Color.fromARGB(255, 6, 77, 135),
+                    width: 33,
+                    height: 44,
+                  ),
+                  // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Colors.blue, width: 2),
+                      shape: BoxShape.circle),
+                  padding: EdgeInsets.all(9),
+                  margin: EdgeInsets.only(top: 30, left: 30),
+                ),
+              ],
             )
           ],
         ),
