@@ -222,7 +222,7 @@ class FaceBook extends StatelessWidget {
                   ),
                   // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.blue, width: 2),
+                      border: Border.all(color: Color.fromARGB(255, 24, 106, 172), width: 2),
                       shape: BoxShape.circle),
                   padding: EdgeInsets.all(9),
                   margin: EdgeInsets.only(top: 30, left: 60),
@@ -231,13 +231,13 @@ class FaceBook extends StatelessWidget {
                   // ignore: sort_child_properties_last
                   child: SvgPicture.asset(
                     "assets/img/inc.svg",
-                    color: Color.fromARGB(255, 6, 77, 135),
+                    color: Color.fromARGB(255, 239, 6, 6),
                     width: 33,
                     height: 44,
                   ),
                   // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.blue, width: 2),
+                      border: Border.all(color: Color.fromARGB(255, 21, 106, 176), width: 2),
                       shape: BoxShape.circle),
                   padding: EdgeInsets.all(9),
                   margin: EdgeInsets.only(top: 30, left: 30),
@@ -246,13 +246,13 @@ class FaceBook extends StatelessWidget {
                   // ignore: sort_child_properties_last
                   child: SvgPicture.asset(
                     "assets/img/tw.svg",
-                    color: Color.fromARGB(255, 6, 77, 135),
+                    color: Color.fromARGB(255, 118, 193, 254),
                     width: 33,
                     height: 44,
                   ),
                   // decoration: BoxDecoration(borderRadius: BorderRadius.circular(111),color: Colors.blue),
                   decoration: BoxDecoration(
-                      border: Border.all(color: Colors.blue, width: 2),
+                      border: Border.all(color: Color.fromARGB(255, 22, 94, 153), width: 2),
                       shape: BoxShape.circle),
                   padding: EdgeInsets.all(9),
                   margin: EdgeInsets.only(top: 30, left: 30),
